@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    font-size: 75px;
+    margin-top: 150px;
+}
+
+#timer{
+    display: flex;
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+#control-panel{
+    display: flex;
+    padding: 5px;
+    margin-top: 15px;
+
+}
+
+input{
+    padding: 6px;
+    margin: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width: 80px;
+    height: 40px;
+}

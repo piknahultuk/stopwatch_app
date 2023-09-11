@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Stopwatch App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>Stopwatch</header>
+    <div id="timer">
+      <div id="hour">00</div>
+      <div class="splitter">:</div>
+      <div id="minute">00</div>
+      <div class="splitter">:</div>
+      <div id="second">00</div>
+    </div>
+    <div id="control-panel">
+      <input type="button" value="Start" id="start" />
+
+      <input type="button" value="Stop" id="stop" />
+
+      <input type="button" value="Reset" id="reset" />
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
