@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(182, 201, 192);
+    color:rgb(192, 41, 26) ;
 }
 
 body{
@@ -21,14 +23,14 @@ header{
 
 #timer{
     display: flex;
-    font-size: 40px;
-    margin-top: 15px;
+    font-size: 50px;
+    margin-top: 50px;
 }
 
 #control-panel{
     display: flex;
     padding: 5px;
-    margin-top: 15px;
+    margin-top: 35px;
 
 }
 
@@ -39,4 +41,15 @@ input{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     width: 80px;
     height: 40px;
+    font-weight: bold;
 }
+
+footer{
+    margin-top: 15px;
+}
+
+a, a:visited{
+    text-decoration: underline;
+    
+}
+
